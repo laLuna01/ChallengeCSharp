@@ -1,0 +1,70 @@
+@model ChallengeCSharp.Web.Models.ConsultaViewModel
+
+@{
+    ViewData["Title"] = "Editar Consulta";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h2 class="text-primary mb-4">@ViewData["Title"]</h2>
+
+            <form asp-action="Edit" method="post" class="needs-validation" novalidate>
+                <input type="hidden" asp-for="IdConsulta" />
+
+                <div class="mb-3">
+                    <label asp-for="Custo" class="form-label">Custo</label>
+                    <input asp-for="Custo" class="form-control" placeholder="Ex: São Paulo, California..." />
+                    <span asp-validation-for="Custo" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="DataConsulta" class="form-label">Data da Consulta</label>
+                    <input asp-for="DataConsulta" class="form-control" placeholder="Ex: São Paulo, California..." />
+                    <span asp-validation-for="DataConsulta" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="StatusSinistro" class="form-label">Status do Sinistro</label>
+                    <input asp-for="StatusSinistro" class="form-control" placeholder="Ex: São Paulo, California..." />
+                    <span asp-validation-for="StatusSinistro" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="TipoConsulta" class="form-label">Tipo da Consulta</label>
+                    <input asp-for="TipoConsulta" class="form-control" placeholder="Ex: São Paulo, California..." />
+                    <span asp-validation-for="TipoConsulta" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="IdDentista" class="form-label">Dentista</label>
+                    <select asp-for="IdDentista" asp-items="Model.Dentistas" class="form-select">
+                        <option value="">-- Selecione um dentista --</option>
+                    </select>
+                    <span asp-validation-for="IdDentista" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="IdPaciente" class="form-label">Paciente</label>
+                    <select asp-for="IdPaciente" asp-items="Model.Pacientes" class="form-select">
+                        <option value="">-- Selecione um paciente --</option>
+                    </select>
+                    <span asp-validation-for="IdPaciente" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left-circle me-1"></i> Voltar
+                    </a>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save me-1"></i> Salvar Alterações
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/ChallengeCSharp.Api.props" />
+</Project>

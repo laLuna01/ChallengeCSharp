@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ChallengeCSharp.Web.Models.SinistroViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Sinistros";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-primary">@ViewData["Title"]</h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle me-1"></i> Novo Sinistro
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            Nenhum sinistro cadastrado ainda.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle">
+                <thead class="table-light">
+                <tr>
+                    <th>Data de abertura</th>
+                    <th>Descrição</th>
+                    <th>Motivo</th>
+                    <th>Status</th>
+                    <th>Consulta</th>
+                    <th class="text-center" style="width: 200px;">Ações</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.DataAbertura)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Descricao)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Motivo)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                        <td>@item.IdConsulta</td> <!-- mostra o nome do país -->
+                        <td class="text-center">
+                            <a class="btn btn-sm btn-outline-warning me-1" asp-action="Edit" asp-route-id="@item.IdSinistro">
+                                <i class="bi bi-pencil-square"></i> Editar
+                            </a>
+                            <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@item.IdSinistro">
+                                <i class="bi bi-trash"></i> Excluir
+                            </a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

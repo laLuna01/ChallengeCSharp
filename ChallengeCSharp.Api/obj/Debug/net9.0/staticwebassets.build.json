@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "CIfqpnH0SHK7hGtR8ajan+kOj+Tm0d5loqVLd/Cf2QU=",
+  "Source": "ChallengeCSharp.Api",
+  "BasePath": "_content/ChallengeCSharp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

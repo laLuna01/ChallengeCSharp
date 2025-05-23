@@ -1,0 +1,23 @@
+@model ChallengeCSharp.Web.Models.GeneroViewModel
+
+@{
+    ViewData["Title"] = "Excluir Gênero";
+}
+
+<div class="container mt-4">
+    <h2 class="text-danger">@ViewData["Title"]</h2>
+    <h5 class="mt-3">Tem certeza que deseja excluir o gênero abaixo?</h5>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Descrição:</dt>
+        <dd class="col-sm-10">@Model.Descricao</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">
+            <i class="bi bi-trash"></i> Confirmar Exclusão
+        </button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
+    </form>
+</div>

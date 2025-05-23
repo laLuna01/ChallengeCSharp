@@ -1,0 +1,43 @@
+@model ChallengeCSharp.Web.Models.SinistroViewModel
+
+@{
+    ViewData["Title"] = "Excluir Sinistro";
+}
+
+<div class="container mt-4">
+    <h2 class="text-danger">@ViewData["Title"]</h2>
+    <h5 class="mt-3">Tem certeza que deseja excluir o sinistro abaixo?</h5>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Data de abertura:</dt>
+        <dd class="col-sm-10">@Model.DataAbertura</dd>
+    </dl>
+    
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Descrição:</dt>
+        <dd class="col-sm-10">@Model.Descricao</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Motivo:</dt>
+        <dd class="col-sm-10">@Model.Motivo</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Status:</dt>
+        <dd class="col-sm-10">@Model.Status</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Consulta:</dt>
+        <dd class="col-sm-10">@Model.IdConsulta</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="IdSinistro" />
+        <button type="submit" class="btn btn-danger">
+            <i class="bi bi-trash"></i> Confirmar Exclusão
+        </button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
+    </form>
+</div>

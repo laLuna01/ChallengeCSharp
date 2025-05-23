@@ -1,0 +1,45 @@
+@model ChallengeCSharp.Web.Models.PredicaoViewModel
+
+@{
+    ViewData["Title"] = "Predição de Sinistro";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    <form asp-action="Index" method="post" class="mt-4">
+
+        <div class="mb-3">
+            <label asp-for="Valor" class="form-label">Valor</label>
+            <input asp-for="Valor" class="form-control" />
+            <span asp-validation-for="Valor" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Procedimento" class="form-label">Procedimento</label>
+            <input asp-for="Procedimento" class="form-control" />
+            <span asp-validation-for="Procedimento" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3 form-check">
+            <input asp-for="HistoricoNegativo" class="form-check-input" />
+            <label asp-for="HistoricoNegativo" class="form-check-label">Histórico Negativo</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Prever</button>
+    </form>
+
+    @if (Model.Aprovado.HasValue)
+    {
+        <div class="mt-4 alert alert-info">
+            <strong>Resultado da Predição:</strong><br />
+            Aprovado? <strong>@(Model.Aprovado.Value ? "Sim" : "Não")</strong><br />
+            Probabilidade: <strong>@(Model.Probabilidade?.ToString("P2"))</strong><br />
+            Mudança no score: <strong>@(Model.Score?.ToString("P2"))</strong>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

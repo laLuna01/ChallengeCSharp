@@ -1,0 +1,48 @@
+@model ChallengeCSharp.Web.Models.TratamentoViewModel
+
+@{
+    ViewData["Title"] = "Excluir Tratamento";
+}
+
+<div class="container mt-4">
+    <h2 class="text-danger">@ViewData["Title"]</h2>
+    <h5 class="mt-3">Tem certeza que deseja excluir o tratamento abaixo?</h5>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Custo:</dt>
+        <dd class="col-sm-10">@Model.Custo</dd>
+    </dl>
+    
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Data de Início:</dt>
+        <dd class="col-sm-10">@Model.DataInicio</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Data de Término:</dt>
+        <dd class="col-sm-10">@Model.DataTermino</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Descrição:</dt>
+        <dd class="col-sm-10">@Model.Descricao</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Tipo da Tratamento:</dt>
+        <dd class="col-sm-10">@Model.TipoTratamento</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Consulta:</dt>
+        <dd class="col-sm-10">@Model.IdConsulta</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="IdTratamento" />
+        <button type="submit" class="btn btn-danger">
+            <i class="bi bi-trash"></i> Confirmar Exclusão
+        </button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
+    </form>
+</div>

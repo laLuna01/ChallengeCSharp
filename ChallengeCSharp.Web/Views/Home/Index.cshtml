@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Página Inicial";
+}
+
+<div class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Odontoprev Sinistros</h1>
+        <p class="lead text-muted">Aplicação para previsão e gestão de sinistros odontológicos utilizando Machine Learning e .NET.</p>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <section class="mb-4">
+                <h2>Sobre o Projeto</h2>
+                <p>Este sistema foi desenvolvido para facilitar a análise e aprovação de sinistros odontológicos, aplicando modelos de aprendizado de máquina para prever a aprovação com base em dados históricos.</p>
+            </section>
+
+            <section class="mb-4">
+                <h2>Funcionalidades Principais</h2>
+                <ul>
+                    <li>Treinamento e atualização do modelo de previsão.</li>
+                    <li>Interface para submissão de dados e obtenção de previsões.</li>
+                    <li>Dashboard de acompanhamento de sinistros e resultados.</li>
+                    <li>Gestão completa de sinistros com CRUD.</li>
+                </ul>
+            </section>
+
+            <section class="mb-4">
+                <h2>Comece Agora</h2>
+                <p>Você pode acessar o sistema de predição no menu <a asp-controller="Predicao" asp-action="Index">Predição</a> para testar com seus próprios dados.</p>
+                <p>Para gerenciar os sinistros, utilize a seção de <a asp-controller="Sinistro" asp-action="Index">Sinistros</a>.</p>
+            </section>
+
+            <section class="text-center mt-5">
+                <a href="/Predicao" class="btn btn-primary btn-lg">Ir para Predição</a>
+            </section>
+
+        </div>
+    </div>
+</div>

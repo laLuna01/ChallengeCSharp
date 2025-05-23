@@ -1,0 +1,11 @@
+Valor,Procedimento,HistoricoNegativo
+150.00,Limpeza,FALSE
+300.00,Obturação,FALSE
+800.00,Canal,TRUE
+1200.00,Prótese,TRUE
+100.00,Consulta,FALSE
+900.00,Implante,TRUE
+200.00,Limpeza,FALSE
+350.00,Obturação,FALSE
+1000.00,Canal,TRUE
+1100.00,Prótese,TRUE

@@ -1,0 +1,17 @@
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/bin/Debug/net9.0/ChallengeCSharp.Application.deps.json
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/bin/Debug/net9.0/ChallengeCSharp.Application.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/bin/Debug/net9.0/ChallengeCSharp.Application.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/bin/Debug/net9.0/ChallengeCSharp.Domain.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/bin/Debug/net9.0/ChallengeCSharp.Infrastructure.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/bin/Debug/net9.0/ChallengeCSharp.Domain.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/bin/Debug/net9.0/ChallengeCSharp.Infrastructure.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.csproj.AssemblyReference.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.AssemblyInfoInputs.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.AssemblyInfo.cs
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.csproj.CoreCompileInputs.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/Challeng.9A73223B.Up2Date
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/refint/ChallengeCSharp.Application.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ref/ChallengeCSharp.Application.dll

@@ -1,0 +1,17 @@
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/bin/Debug/net9.0/ChallengeCSharp.Domain.deps.json
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/bin/Debug/net9.0/ChallengeCSharp.Domain.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/bin/Debug/net9.0/ChallengeCSharp.Domain.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.AssemblyInfoInputs.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.AssemblyInfo.cs
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.csproj.CoreCompileInputs.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/refint/ChallengeCSharp.Domain.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ref/ChallengeCSharp.Domain.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/bin/Debug/net9.0/Microsoft.ML.Data.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/bin/Debug/net9.0/Microsoft.ML.Core.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/bin/Debug/net9.0/Microsoft.ML.Data.xml
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/bin/Debug/net9.0/Microsoft.ML.Core.xml
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.csproj.AssemblyReference.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/Challeng.22FF4F00.Up2Date

@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ChallengeCSharp.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.ML.Data": "1.0.0.0"
+        },
+        "runtime": {
+          "ChallengeCSharp.Domain.dll": {}
+        }
+      },
+      "Microsoft.ML.Data/1.0.0.0": {
+        "runtime": {
+          "Microsoft.ML.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.0.225.12505"
+          }
+        }
+      },
+      "Microsoft.ML.Core/1.0.0.0": {
+        "runtime": {
+          "Microsoft.ML.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.0.225.12505"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChallengeCSharp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ML.Data/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ML.Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

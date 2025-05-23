@@ -1,0 +1,15 @@
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/bin/Debug/net9.0/ChallengeCSharp.Infrastructure.deps.json
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/bin/Debug/net9.0/ChallengeCSharp.Infrastructure.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/bin/Debug/net9.0/ChallengeCSharp.Infrastructure.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/bin/Debug/net9.0/ChallengeCSharp.Domain.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/bin/Debug/net9.0/ChallengeCSharp.Domain.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.csproj.AssemblyReference.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.AssemblyInfoInputs.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.AssemblyInfo.cs
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.csproj.CoreCompileInputs.cache
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/Challeng.7A0A3F0C.Up2Date
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/refint/ChallengeCSharp.Infrastructure.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.pdb
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ref/ChallengeCSharp.Infrastructure.dll

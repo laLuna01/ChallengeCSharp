@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ChallengeCSharp.Web.Models.PacienteViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Pacientes";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-primary">@ViewData["Title"]</h2>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="bi bi-plus-circle me-1"></i> Novo Paciente
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            Nenhum paciente cadastrado ainda.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle">
+                <thead class="table-light">
+                <tr>
+                    <th>Nome</th>
+                    <th>Data de Nascimento</th>
+                    <th>CPF</th>
+                    <th>Gênero</th>
+                    <th>Endereço</th>
+                    <th class="text-center" style="width: 200px;">Ações</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                        <td>@Html.DisplayFor(modelItem => item.DataNascimento)</td>
+                        <td>@Html.DisplayFor(modelItem => item.CPF)</td>
+                        <td>@item.NomeGenero</td> <!-- mostra o nome do país -->
+                        <td>@item.LogradouroEndereco</td> <!-- mostra o nome do país -->
+                        <td class="text-center">
+                            <a class="btn btn-sm btn-outline-warning me-1" asp-action="Edit" asp-route-id="@item.IdPaciente">
+                                <i class="bi bi-pencil-square"></i> Editar
+                            </a>
+                            <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@item.IdPaciente">
+                                <i class="bi bi-trash"></i> Excluir
+                            </a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

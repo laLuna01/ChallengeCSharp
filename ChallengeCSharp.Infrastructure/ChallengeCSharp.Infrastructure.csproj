@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.ML" Version="4.0.2" />
+      <PackageReference Include="Oracle.EntityFrameworkCore" Version="9.23.80" />
+      <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.8.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChallengeCSharp.Domain\ChallengeCSharp.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.ML.Core">
+        <HintPath>..\..\..\.nuget\packages\microsoft.ml\4.0.2\lib\netstandard2.0\Microsoft.ML.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.ML.Data">
+        <HintPath>..\..\..\.nuget\packages\microsoft.ml\4.0.2\lib\netstandard2.0\Microsoft.ML.Data.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.ML.DataView">
+        <HintPath>..\..\..\.nuget\packages\microsoft.ml.dataview\4.0.2\lib\netstandard2.0\Microsoft.ML.DataView.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

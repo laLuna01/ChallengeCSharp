@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <PreserveCompilationContext>true</PreserveCompilationContext>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Generos\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Generos\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Generos\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Generos\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Generos\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cidade\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cidade\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cidade\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cidade\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChallengeCSharp.Application\ChallengeCSharp.Application.csproj" />
+      <ProjectReference Include="..\ChallengeCSharp.Domain\ChallengeCSharp.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Endereco\Create.cshtml" />
+      <AdditionalFiles Include="Views\Endereco\Delete.cshtml" />
+      <AdditionalFiles Include="Views\Endereco\Edit.cshtml" />
+      <AdditionalFiles Include="Views\Endereco\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="MLModels\Data\sinistros.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

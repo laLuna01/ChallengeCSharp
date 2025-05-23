@@ -1,0 +1,43 @@
+@model ChallengeCSharp.Web.Models.EnderecoViewModel
+
+@{
+    ViewData["Title"] = "Excluir Endereço";
+}
+
+<div class="container mt-4">
+    <h2 class="text-danger">@ViewData["Title"]</h2>
+    <h5 class="mt-3">Tem certeza que deseja excluir o endereço abaixo?</h5>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Bairro:</dt>
+        <dd class="col-sm-10">@Model.NomeBairro</dd>
+    </dl>
+    
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Logradouro:</dt>
+        <dd class="col-sm-10">@Model.Logradouro</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Número:</dt>
+        <dd class="col-sm-10">@Model.Numero</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">CEP:</dt>
+        <dd class="col-sm-10">@Model.CEP</dd>
+    </dl>
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">Referência:</dt>
+        <dd class="col-sm-10">@Model.Referencia</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="CodEndereco" />
+        <button type="submit" class="btn btn-danger">
+            <i class="bi bi-trash"></i> Confirmar Exclusão
+        </button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">Cancelar</a>
+    </form>
+</div>

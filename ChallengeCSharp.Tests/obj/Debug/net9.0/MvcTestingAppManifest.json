@@ -1,0 +1,7 @@
+{
+  "ChallengeCSharp.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/luana\/RiderProjects\/ChallengeCSharp\/ChallengeCSharp.Api",
+  "ChallengeCSharp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/luana\/RiderProjects\/ChallengeCSharp\/ChallengeCSharp.Application",
+  "ChallengeCSharp.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/luana\/RiderProjects\/ChallengeCSharp\/ChallengeCSharp.Domain",
+  "ChallengeCSharp.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/luana\/RiderProjects\/ChallengeCSharp\/ChallengeCSharp.Infrastructure",
+  "ChallengeCSharp.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/luana\/RiderProjects\/ChallengeCSharp\/ChallengeCSharp.Web"
+}

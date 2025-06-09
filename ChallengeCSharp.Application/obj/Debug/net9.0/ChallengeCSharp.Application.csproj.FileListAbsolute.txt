@@ -15,3 +15,4 @@
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/refint/ChallengeCSharp.Application.dll
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.pdb
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ref/ChallengeCSharp.Application.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Application/obj/Debug/net9.0/ChallengeCSharp.Application.sourcelink.json

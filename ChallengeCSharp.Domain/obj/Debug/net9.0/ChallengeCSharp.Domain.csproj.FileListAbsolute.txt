@@ -15,3 +15,4 @@
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/bin/Debug/net9.0/Microsoft.ML.Core.xml
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.csproj.AssemblyReference.cache
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/Challeng.22FF4F00.Up2Date
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Domain/obj/Debug/net9.0/ChallengeCSharp.Domain.sourcelink.json

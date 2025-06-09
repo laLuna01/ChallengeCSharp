@@ -444,3 +444,4 @@
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Web/bin/Debug/net9.0/refs/System.Xml.XPath.dll
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Web/bin/Debug/net9.0/refs/System.Xml.XPath.XDocument.dll
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Web/bin/Debug/net9.0/refs/WindowsBase.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Web/obj/Debug/net9.0/ChallengeCSharp.Web.sourcelink.json

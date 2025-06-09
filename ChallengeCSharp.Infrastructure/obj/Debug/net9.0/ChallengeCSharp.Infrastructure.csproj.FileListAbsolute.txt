@@ -13,3 +13,4 @@
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/refint/ChallengeCSharp.Infrastructure.dll
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.pdb
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ref/ChallengeCSharp.Infrastructure.dll
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Infrastructure/obj/Debug/net9.0/ChallengeCSharp.Infrastructure.sourcelink.json

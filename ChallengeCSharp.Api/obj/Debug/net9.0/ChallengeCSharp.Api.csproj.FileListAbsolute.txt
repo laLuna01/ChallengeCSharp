@@ -78,3 +78,4 @@
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Api/obj/Debug/net9.0/ChallengeCSharp.Api.genruntimeconfig.cache
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Api/obj/Debug/net9.0/ref/ChallengeCSharp.Api.dll
 /home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Api/bin/Debug/net9.0/MLModels/Data/sinistros.csv
+/home/luana/RiderProjects/ChallengeCSharp/ChallengeCSharp.Api/obj/Debug/net9.0/ChallengeCSharp.Api.sourcelink.json
